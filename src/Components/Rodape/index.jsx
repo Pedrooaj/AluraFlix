@@ -2,7 +2,6 @@ import styled from "styled-components";
 import image from "/LogoMain.png"
 
 const RodapeContainer = styled.footer`
-
     background-color: black;
     width: 100%;
     height: 125px;

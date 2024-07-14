@@ -24,7 +24,7 @@ const TextArea = ({ label, placeholder }) => {
     return (
         <TextAreaContainer>
             <label>{label}</label>
-            <textarea  placeholder={placeholder} />
+            <textarea placeholder={placeholder} />
         </TextAreaContainer>
     );
 }

@@ -20,10 +20,10 @@ const ButtonContainer = styled.button`
 
 `
 
-const Button = ({onClick, children}) => {
+const Button = ({onClick, children, type}) => {
     return (  
         <ButtonContainer>
-            <button onClick={onClick}>{children}</button>
+            <button type={type} onClick={onClick}>{children}</button>
         </ButtonContainer>
     );
 }

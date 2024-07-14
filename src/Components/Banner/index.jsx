@@ -13,8 +13,6 @@ display: flex;
     display: none;
 }
 
-
-
 iframe{
     position: absolute;
     right: 5%;

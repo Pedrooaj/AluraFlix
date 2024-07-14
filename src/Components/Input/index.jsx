@@ -18,11 +18,11 @@ const InputContainer = styled.div`
     }
 `
 
-const InputComponent = ({ placeholder, type, label }) => {
+const InputComponent = ({ placeholder, type, label, required = false }) => {
     return (
         <InputContainer>
         <label>{label}</label>
-            <input placeholder={placeholder} type={type} />
+            <input placeholder={placeholder} type={type} required={required} />
         </InputContainer>
 
     );
