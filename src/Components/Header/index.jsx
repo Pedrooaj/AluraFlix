@@ -7,17 +7,36 @@ const HeaderContainer = styled.header`
     display: flex;
     justify-content: space-between;
     align-items: center;    
+    flex-wrap: wrap;
     width: 100%;
     height: 125px;  
     background-color: rgba(38, 38, 38, 1);
+   
+
+    @media (max-width: 768px) {
+        justify-content: center;
+
+
+    }
 
     img{
         margin-left: 45px;
     }
     nav{
         margin-right: 45px;
-    
     }
+
+    @media (max-width: 768px) {
+        gap: 20px;
+        padding-bottom: 80px;
+        img{
+            margin-left: 0;
+        }
+        nav{
+            margin-right: 0;
+        
+    }
+}
 `
 
 

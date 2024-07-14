@@ -5,7 +5,7 @@ import Seletor from "../Seletor";
 import TextArea from "../TextArea";
 
 
-const FormularioContainer = styled.form`
+const FormularioContainer = styled.div`
     width: 100%;
     display: flex;
     justify-content: center;

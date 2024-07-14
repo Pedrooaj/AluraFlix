@@ -7,6 +7,8 @@ const NavContainer = styled.nav`
     height: 100%;
     display: flex;
     align-items: center;
+    justify-content: center;
+    margin: 0;
 `
 
 const Lista = styled.ul`
@@ -16,6 +18,9 @@ const Lista = styled.ul`
     gap: 40px;
     width: 100%;
     list-style: none;
+
+
+
     .link{
         font-family: sans-serif;
         font-weight: bold;

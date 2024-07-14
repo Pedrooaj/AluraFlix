@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const ButtonContainer = styled.button`
+const ButtonContainer = styled.div`
     width: 160px;
     height: 50px;
 
